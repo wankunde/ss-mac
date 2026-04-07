@@ -55,11 +55,8 @@ cargo build --release
 cargo test
 ```
 
-## 🏗 GitHub Actions
-The project includes a CI workflow that automatically runs:
-1. **Linting**: Checks code formatting and common errors.
-2. **Testing**: Runs the integrated unit tests.
-3. **Build**: Ensures the project compiles on macOS environments.
+## 🏗 Build & Release
+The project includes a `release.sh` script that automatically builds the project locally and uploads the binary to GitHub Releases.
 
 ## ⚖️ License
 MIT / Apache 2.0

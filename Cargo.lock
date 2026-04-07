@@ -466,7 +466,6 @@ name = "ss-mac"
 version = "0.1.0"
 dependencies = [
  "clap",
- "libc",
  "libproc",
  "netstat2",
 ]
