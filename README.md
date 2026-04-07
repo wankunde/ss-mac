@@ -28,14 +28,20 @@ ss-mac --help
 
 ## 📦 Installation
 
-### One-Line Install (Local Build)
-If you have Rust/Cargo installed, you can clone and install it globally with:
+### One-Line Install (Recommended)
+You can install the pre-built binary directly from GitHub Releases using this one-line command. You don't need to have Rust installed:
+
 ```bash
-git clone https://github.com/yourusername/ss-mac.git && cd ss-mac && cargo install --path .
+curl -fsSL https://raw.githubusercontent.com/wankunde/ss-mac/main/install.sh | bash
 ```
 
-### Pre-built Binaries (Coming Soon)
-Visit the [Releases](https://github.com/yourusername/ss-mac/releases) page for ARM64 and x64 binaries.
+### Build from Source
+If you have Rust and Cargo installed and prefer to build from source:
+```bash
+git clone https://github.com/wankunde/ss-mac.git
+cd ss-mac
+cargo install --path .
+```
 
 ## 🔨 Development
 
